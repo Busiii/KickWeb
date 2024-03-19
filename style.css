@@ -1,0 +1,58 @@
+body {
+background-color:  #F0E2C5;
+margin: 0px;
+padding: 0px;
+}
+
+h1{
+    display: flex;
+    font-size: 3vw;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+    gap: 5vh;
+   grid-row: repeat(2, auto);
+   grid-column: repeat(2, auto);
+
+}
+
+.parentflex+ .main{
+    margin-top: 20vh;
+ }
+
+.child{
+color:#212021;
+text-decoration: none;
+background-color: #cbc6c3;;
+}
+
+.day1{
+    grid-row: 1;
+    grid-column: 1;
+   font-size: 4vh;
+    }
+
+.day2{
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 4vh;
+    }
+        
+.day3{
+    grid-row: 3;
+    grid-column: 1;
+   font-size: 4vh;
+    }
+    
+.final{
+    grid-row: 4;
+    grid-column: 1;
+   font-size: 4vh;
+    }
+
+.child:hover {
+    background-color: #ffffff;
+}
