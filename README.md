@@ -1,2 +1,2 @@
 # KickWeb
-https://github.com/Busiii/KickWeb.git
+https://busiii.github.io/KickWeb/
