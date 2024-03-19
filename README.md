@@ -1,2 +1,2 @@
 # KickWeb
-https://github.com/Busiii/KickWeb/Index.html
+https://github.com/Busiii/KickWeb.git
