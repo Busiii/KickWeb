@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+.bodys2 {
+   background-color:  #F0E2C5;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+.title {
+   font-size: 10vh;
+   color: #44372D;
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+}
+ 
+.parent{
+   color: #44372D;
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   display: grid;
+   box-sizing: border-box;
+   gap: 2px;
+   grid-template-columns: repeat(4, auto);
+   grid-template-rows: repeat(2, auto);
+   min-height:calc(100vh);
+}
+
+.title + .parent {
+   margin-top: 20px;
+}
+
+.child {
+   text-align: center;
+   color: #fffeff;
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   background-color: #212021;
+   padding: 100px;
+   padding-left: 10.5vw;
+   padding-right: 10.5vw;
+}
+
+ 
+.child:hover {
+   background-color: #363436;
+   color: #d4d4d4;
+}
+
+.eins {
+   grid-row: 1;
+   grid-column: 1;
+   font-size: 8vh;
+}
+
+.zwei {
+   grid-row: 1;
+   grid-column: 2;
+   font-size: 8vh;
+}
+
+ 
+.drei {
+   grid-row: 1;
+   grid-column: 3;
+   font-size: 8vh;
+}
+
+ 
+.vier {
+   grid-row: 1;
+   grid-column: 4;
+   font-size: 8vh;
+}
+
+.fünf {
+   grid-row: 2;
+   grid-column: 1;
+   font-size: 8vh;
+}
+
+.sechs {
+   grid-row: 2;
+   grid-column: 2;
+   font-size: 8vh;
+}
+
+ 
+.figma2 {
+   grid-row: 2;
+   grid-column: 3/5;
+   font-size: 8vh;
+}
+ 
+ 
