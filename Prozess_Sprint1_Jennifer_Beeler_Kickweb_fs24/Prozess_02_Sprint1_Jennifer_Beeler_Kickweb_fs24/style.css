@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+body {
+   display: flex;
+   justify-content: center; 
+   background-color: white;
+}
+
+#plakat{
+   color: #F0E2C5;
+   width: 80vw;
+   height: calc(100);
+   background-image: url("Backround.jpg");
+}
+
+section.title {
+   text-align-last: right;
+   color: #44372D;
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 1rem;
+}
+
+div.Typografie{
+   border: 7px solid white;
+}
+
+section.T{
+   text-align-last: center;
+   color:  #F0E2C5;
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   background-color: #212021;
+   display: flex;
+}
+
+.size_1{
+   font-size: 50rem;
+   display: flex;
+}
+
+.size_2{
+   font-size: 7rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.size_3{
+   font-size: 7rem;
+   width: 66%;
+   display: flex;
+   flex-direction: row;
+}
+
+.size_4{
+   font-size: 7rem;
+   width: 66%;
+   display: flex;
+   flex-direction: row;
+}
+
+.size_5{
+   font-size: 7rem;
+   width: 66%;
+   display: flex;
+   flex-direction: row; 
+}
