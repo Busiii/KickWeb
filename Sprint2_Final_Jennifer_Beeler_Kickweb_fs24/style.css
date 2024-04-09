@@ -56,7 +56,6 @@ body {
    grid-template-rows: repeat(9, auto);
    min-height:calc(100vh);
    background-color: transparent;
-   transition-delay: 6s;
 }
 
 .flip-card {
@@ -78,8 +77,7 @@ body {
    vertical-align: middle;
    transition: transform 0.8s;
    transform-style: preserve-3d;
-   transition-delay: 6s;
-   transition-delay: calc(var(--ziit) + 0.8s); 
+   transition-delay: 8s;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -374,7 +372,7 @@ to{
       vertical-align: middle;
       transition: transform 0.8s;
       transform-style: preserve-3d;
-      transition-delay: 1s;
+      transition-delay: 6s;
    }
 
    .flip-card:hover .flip-card-inner {
@@ -666,7 +664,7 @@ to{
       vertical-align: middle;
       transition: transform 0.8s;
       transform-style: preserve-3d;
-      transition-delay: 1s;
+      transition-delay: 6s;
    }
 
    .flip-card:hover .flip-card-inner {
